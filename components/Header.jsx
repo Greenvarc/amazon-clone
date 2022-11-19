@@ -32,6 +32,7 @@ function Header() {
           height={40}
           objectFit='contain'
           className='cusror-pointer'
+          alt='cool'
           />
         </div>
         {/* seach */}

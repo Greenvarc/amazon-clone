@@ -35,7 +35,7 @@ function Product({id,title,description,category,image,rating,price}) {
         <p className='absolute top-2 right-2 text-xs italic text-gray-400'
         >{category}</p>
 
-        <Image src={image} width={200} height={200} objectFit='contain' loading='lazy'/>
+        <Image alt='item' src={image} width={200} height={200} objectFit='contain' loading='lazy'/>
         
         <h4 className='my-3'>{title}</h4>
 

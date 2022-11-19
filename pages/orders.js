@@ -21,7 +21,8 @@ const Orders = ({orders}) => {
         )}
         <div className="mt-5 space-x-4">
             {orders?.map(({id,amount,amountShipping,items,timestamp,images})=>{
-                return <Order key={id}
+                return <Order
+                key={id}
                 id={id}
                 amount={amount}
                 amountShipping={amountShipping}
