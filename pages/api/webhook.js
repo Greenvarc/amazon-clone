@@ -2,7 +2,7 @@ import {buffer} from 'micro'
 import * as admin from 'firebase-admin'
 
 //secure connection to firebase from backend
-const serviceAccount=require('../../../permission.json')
+const serviceAccount=require('../../permission.json')
 //initialize app if not initialized ../.
 const app=!admin.apps.length
 ? admin.initializeApp({
